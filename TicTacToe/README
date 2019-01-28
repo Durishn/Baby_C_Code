@@ -1,0 +1,85 @@
+****************************************tictactoend.c*****************************************
+*	Nic Durish (#0757227)(ndurish@uoguelph.ca)             	 Jan 28, 2013                *
+*	CIS 2500 - Intermediate Programming          		 Assignment 1                *
+**********************************************************************************************
+
+************
+* CONTENTS *
+************
+I. DESCRIPTION & REQUIREMENTS
+II. COMPILATION
+III. EXECUTION
+IV. KNOWN LIMITATIONS
+
+******************
+* I. DESCRIPTION *
+******************
+	tictactoend is a C program which executes the 2-player game Tic Tac Toe in the 
+Command Line/Terminal.
+
+*******************
+* II. COMPILATION *
+*******************
+	To compile:
+1: Navigate to the a1 directory in Terminal or Command Line
+2: Type 'make' then hit 'enter'
+3. The screen should output a 'gcc' compile line, if no errors are returned then compilation 
+was successful. The executable file; 'tictactoend' and can be found in the /bin directory.
+
+******************
+* III. EXECUTION *
+******************
+	To execute the program once it has compiled, navigate to the a1 directory and type;
+'./bin/tictactoend'
+
+	The program will print a brief game title screen and instructions. Press 'enter'
+ to begin. The controls are the arrow keys, space bar and 'q' key. 
+                                           |     |     
+                                           |     |     
+                                           |     |     
+                                      -----|-----|-----
+                                           |     |     
+                                           |     |     
+                                           |     |     
+                                      -----|-----|-----
+                                           |     |     
+                                           |     |     
+                                           |     |     
+                                       _______________
+                                      |               |
+                                      |Player 1 Start!|
+                                      |               |
+                                       ---------------
+	This gameboard should appear, there are 3x3 empty boxes and a message window. The
+message window tells you who's turn it is and other important information. Player 1's game 
+piece is X's and Player 2's is O's. Player 1 Begins. A cursor will be blinking in the center
+of the first square.
+Press 'up', 'down', 'left', or 'right' on the arrow key to navigate cursor through squares.
+Press 'space' on an empty square to place your gamepiece. 
+Press 'q' to quit the game. 
+
+                                       \ / | \ / | \ /    
+                                        X  |  X  |  X   
+                                       / \ | / \ | / \    
+                                      -----|-----|-----
+                                           |     |     
+                                           |     |     
+                                           |     |     
+                                      -----|-----|-----
+                                           |     |     
+                                           |     |     
+                                           |     |     
+                                       _______________
+                                      | Player 1 Wins |
+                                      |[space] -Replay|
+                                      |   [q] - Quit  |
+                                       ---------------
+ 	The objective of the game is to make a line of three of your respective gamepiece.
+The first person to make a horizontal, vertical or diagonal line of three pieces wins.
+Press 'space' to replay or 'q' to quit.
+
+*************************
+* IV. KNOWN LIMITATIONS *
+*************************
+	This program will not crash from user invalid inputs due to defensive programming.
+

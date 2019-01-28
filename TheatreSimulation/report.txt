@@ -1,0 +1,17 @@
+Max:00:04:11
+Min:00:00:44
+Avg:00:02:42
+Ceryl2:00:00:44
+Daniel:00:01:19
+Chance:00:01:26
+George:00:01:58
+Walter:00:02:15
+Craig5:00:02:31
+Jacob0:00:02:38
+Bobert:00:02:45
+Kayla2:00:03:08
+Thomas:00:03:14
+Kristy:00:03:38
+Joseph:00:04:03
+Ashley:00:04:08
+Robert:00:04:11

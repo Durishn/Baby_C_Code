@@ -1,0 +1,56 @@
+*******************************************MTLSS**********************************************
+*	Nic Durish (#0757227)(ndurish@uoguelph.ca)             	 April 3, 2013               *
+*	CIS 2500 - Intermediate Programming          		 Assignment 3        	     *
+**********************************************************************************************
+
+I. DESCRIPTION & REQUIREMENTS
+II. COMPILATION
+III. EXECUTION & GAME INSTRUCTIONS
+IV. KNOWN LIMITATIONS
+
+******************
+* I. DESCRIPTION *
+******************
+	sim and lltest are a bundle which together provide the Movie Theatre Line
+Simulation System in the Command Line/Terminal.
+MTLSS requires two input files included when the program is executed. The program utilizes the 
+patron information provided in the input file to generate simulation of how the patrons would
+behave in real life. It outputs a file called report.txt into the a3 folder which contains 
+information such as maximum, minimum and average time spent as well as the time spent in line 
+per patron.
+
+*******************
+* II. COMPILATION *
+*******************
+	To compile:
+1: Navigate to the a3 directory in Terminal (Mac/Linux) or Command Line (Windows)
+2: Type 'make' then hit 'enter'
+3. The screen should output two 'gcc' compile lines, if no errors are returned then compilation 
+was successful. The executable files; 'lltest' & 'sim' and can be found in the /bin directory.
+
+*********************************
+* III. EXECUTION & INSTRUCTIONS *
+*********************************
+	To execute the program once it has compiled, navigate to the a3 directory and type;
+'./bin/lltest'. This tests your Linked List Module
+	
+	The program will print a brief introduction, before testing your functions
+	Updates should be printed out to the screen as your functions are tested
+	The final results will be posted onto the screen before the program closes
+
+	To execute the simulation navigate to the a3 directory and type
+'./bin/sim docs/line1.txt docs/line2.txt
+		-if your input files are not named line1.txt or line2.txt 
+  then replace them with your filename
+		-if your input files are not in the a3 directory than include the file path
+    
+	This program will print a brief introduction screen, please press enter.
+	The simulation will output the initial lines of the theatre (ticket/snack).
+	The simulation will then calculate the simulation statistics and output a small report
+	to the terminal. It saves these reports to a file Report.txt in the a3 directory
+					
+*************************
+* IV. KNOWN LIMITATIONS *
+*************************
+    Due to the time constraints and my lack of programming knowledge. This program was left with some know limitations;
+	-The Snack Line sometimes bugs out when its been empty for a while then has more than one patron inside.
